@@ -33,7 +33,7 @@
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 20px;
   box-sizing: border-box; }
 .column,
 .columns {
@@ -409,10 +409,48 @@ there.
 @media (min-width: 550px) {}
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+  .container{
+    margin: 50px;
+  }
+}
 
 /* Larger than desktop */
 @media (min-width: 1000px) {}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+
+
+ul{
+  list-style-type: none;
+}
+
+ul li{
+  float: left;
+  margin-right: 10px;
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  color: #FFF;
+  background: #000;
+  text-align: center;
+  line-height: 108px;
+  font-size: 28px;
+}
+ul li a{
+  display: block;
+  color: #FFF;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  color: #fFF;
+}
+h2{
+  font-weight: 700;
+}
+p{
+  font-size: 18px;
+}
